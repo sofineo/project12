@@ -1,0 +1,19 @@
+#app {
+  margin-top: 17.2rem;
+  }
+
+.home {
+  display: grid;
+  gap: 2.4rem;
+}
+
+
+h1 {
+  justify-self: center;
+}
+
+button {
+  justify-self: center;
+  max-width: 20rem;
+}
+

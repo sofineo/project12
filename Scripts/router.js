@@ -23,6 +23,10 @@ export class Router {
       document.querySelector('#app').innerHTML = html
     })
 
+    this.background(route)
+  }
+
+  background(route) {
     if (route == "/pages/universe.html") {
       document.body.style.backgroundImage = "url('/Assets/mountains-universe02.png')"
     } 
@@ -32,4 +36,6 @@ export class Router {
       document.body.style.backgroundImage = "url('/Assets/mountains-universe01.png')"
     }
   }
+  }
+
   }
